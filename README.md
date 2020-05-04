@@ -2,7 +2,7 @@
 
 Building an API using Express and NodeJs.
 
-#Goals:#
+**Goals:**
 
   Our array should be called like: url/rando/?min=<minimum number>&max=<maximum number>&limit=<how many numbers>
 
