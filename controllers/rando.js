@@ -22,7 +22,7 @@ const getRandom = (req, res) => {
     }
 
     // send the array back to the user
-    return res.json({ randos: returnArray });
+    return res.json({min: randomMin, max: randomMax, limit: limit, randos: returnArray });
 }
   
   module.exports = {
