@@ -11,7 +11,7 @@ const getRandom = (req, res) => {
     // provide default query parameters
     if (req.query.min) {randomMin = req.query.min;} else {randomMin = 1;}
     if (req.query.max) {randomMax = req.query.max;} else {randomMax = 100;}
-    if (req.query.limit) {randomMin = req.query.limit;} else {limit = 100;}
+    if (req.query.limit) {limit = req.query.limit;} else {limit = 100;}
 
     // establish our array
     let returnArray = [];
